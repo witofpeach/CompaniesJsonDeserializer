@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Google",
+    "address": "1600 Amphitheatre Parkway, Mountain View, California, U.S.",
+    "phoneNumber": "+1-541-754-3010",
+    "INN": "3664069397",
+    "OGRN": "1053600591197",
+    "foundationDate": "04.09.1998",
+    "securities": [
+      {
+        "id": "98981240",
+        "currencyType": "USD",
+        "expireDate": "27.12.2008",
+        "ownerName": "Google"
+      }
+    ]
+  },
+  {
+    "name": "Yandex",
+    "address": "ul. Lva Tolstogo, 16, Moscow, Russia, 119021",
+    "phoneNumber": "+7-925-098-78-22",
+    "INN": "6406936397",
+    "OGRN": "5911971053600",
+    "foundationDate": "11.12.1997",
+    "securities": [
+      {
+        "id": "98981240",
+        "currencyType": "EU",
+        "expireDate": "14.07.2019",
+        "ownerName": "Yandex"
+      },
+      {
+        "id": "09023987",
+        "currencyType": "RUB",
+        "expireDate": "29.02.2011",
+        "ownerName": "Yandex"
+      }
+    ]
+  }
+]
