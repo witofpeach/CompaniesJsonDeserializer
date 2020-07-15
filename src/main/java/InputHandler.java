@@ -50,7 +50,13 @@ public class InputHandler {
                 break;
             case "currency":
                 System.out.println("Введите валюту (EU, USD, RUB)");
-                CurrencyType currencyType = CurrencyType.valueOf(bufferedReader.readLine());
+                CurrencyType currencyType = CurrencyType.RUB;
+                try {
+                    currencyType = CurrencyType.valueOf(bufferedReader.readLine());
+                } catch (IllegalArgumentException e) {
+                    System.out.println("Не правильный формат ввода валюты!");
+                    break;
+                }
                 Company.printByCurrency(companies, currencyType);
                 break;
             default:
